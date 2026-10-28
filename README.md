@@ -1,13 +1,12 @@
-# Robo Resgate — A3 Desenvolvimento de um Jogo
+# Rescue Robot — A3 Desenvolvimento de um Jogo
 
-![Partida do Robo Resgate](capturas/partida.png)
+![Partida do Rescue Robot](capturas/partida.png)
 
 ## 1. Identificação
 
 | Item | Informação |
 |---|---|
-| **Jogo** | Robo Resgate |
-| **Grupo** | [NOME DO GRUPO] |
+| **Jogo** | Rescue Robot (na tela do jogo: "Robo Resgate") |
 | **Disciplina** | Usabilidade, desenvolvimento web, mobile e jogos |
 | **Professor** | Elzo Brito dos Santos Filho |
 
@@ -15,16 +14,14 @@
 
 | Nome completo | RA |
 |---|---|
-| [Nome 1] | [RA] |
-| [Nome 2] | [RA] |
-| [Nome 3] | [RA] |
-| [Nome 4] | [RA] |
-| [Nome 5] | [RA] |
-| [Nome 6] | [RA] |
+| Andrew Pedrosa Saraiva dos Santos | 82323912 |
+| Gustavo de Oliveira Afonso do Amaral | 82320503 |
+| Valéria Alves Silva | 82320665 |
+| Vitor Moreira dos Santos | 823214219 |
 
 ## 2. Descrição e história
 
-Robo Resgate é um jogo 2D de exploração e sobrevivência, em pixel art, que se passa numa estação espacial sem energia. O jogador controla o RX-7, um robô de manutenção que precisa resgatar cinco robôs presos, coletar baterias para não ficar sem energia e desviar de lasers e drones de segurança com defeito. A cada dois robôs resgatados a estação reage: novos perigos aparecem e tudo fica mais rápido.
+Rescue Robot é um jogo 2D de exploração e sobrevivência, em pixel art, que se passa numa estação espacial sem energia. O jogador controla o RX-7, um robô de manutenção que precisa resgatar cinco robôs presos, coletar baterias para não ficar sem energia e desviar de lasers e drones de segurança com defeito. A cada dois robôs resgatados a estação reage: novos perigos aparecem e tudo fica mais rápido.
 
 - **Premissa:** o RX-7 é a última unidade operacional da estação ORION e recebe uma transmissão de emergência.
 - **Conflito:** a estação está sem energia (a bateria do RX-7 cai o tempo todo) e as defesas com defeito atacam tudo o que se move.
@@ -102,16 +99,12 @@ Os controles também aparecem no menu, na pausa e no HUD.
 
 ## 6. Divisão de tarefas
 
-> Preencher com o que cada integrante realmente fez.
-
-| Integrante | Tarefas |
+| Integrante | O que fez |
 |---|---|
-| [Nome 1] | [ex.: regras da partida, movimento e colisões (`src/partida.py`)] |
-| [Nome 2] | [ex.: menu, HUD e telas (`src/desenho.py`)] |
-| [Nome 3] | [ex.: pixel art dos personagens e animações] |
-| [Nome 4] | [ex.: efeitos sonoros e músicas (`src/audio.py`, `tools/gerar_musicas.py`)] |
-| [Nome 5] | [ex.: partículas, tremor de tela e recorde (`src/efeitos.py`, `src/recorde.py`)] |
-| [Nome 6] | [ex.: README, testes em outro computador e apresentação] |
+| Valéria Alves Silva | Regras da partida (`src/partida.py`): movimento do RX-7, colisões com paredes e perigos, pontuação, energia, vidas e avanço de fases. |
+| Vitor Moreira dos Santos | Parte visual (`src/desenho.py`): pixel art dos personagens, animações (andar, drones, robôs pedindo SOS), HUD, menu, pausa e telas de introdução, fase e fim de jogo. |
+| Gustavo de Oliveira Afonso do Amaral | Som (`src/audio.py`, `tools/gerar_musicas.py`): efeitos sonoros, músicas de menu e partida, volume e mudo. Também cuidou do README, dos testes em outro computador e da preparação da apresentação. |
+| Andrew Pedrosa Saraiva dos Santos | Feedback visual e recorde (`src/efeitos.py`, `src/recorde.py`): partículas ao coletar e resgatar, tremor de tela e clarão ao levar dano, e recorde salvo em arquivo. |
 
 ## 7. Créditos e licenças
 
